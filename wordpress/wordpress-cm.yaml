@@ -1,0 +1,9 @@
+---
+# WordPress ConfigMap
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: wordpress-config
+  namespace: wordpress
+data:
+  WORDPRESS_DB_NAME: wordpress
